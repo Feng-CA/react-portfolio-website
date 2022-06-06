@@ -5,15 +5,17 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {AiOutlineFundProjectionScreen} from 'react-icons/ai'
 import {FaBlog} from 'react-icons/fa'
 import {BiMessageSquareDetail} from 'react-icons/bi'
+import {useState} from 'react'
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState('#home')
   return (
     <nav>
-      <a href="#header"><AiOutlineHome/></a>
-      <a href="#about"><AiOutlineUser/></a>
-      <a href="#project"><AiOutlineFundProjectionScreen/></a>
-      <a href="#blog"><FaBlog/></a>
-      <a href="#contact"><BiMessageSquareDetail/></a>
+      <a href="#home" onClick={() => setActiveNav('#home')} className={activeNav === '#home' ? 'active' : ''}><AiOutlineHome/></a>
+      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
+      <a href="#project" onClick={() => setActiveNav('#project')} className={activeNav === '#project' ? 'active' : ''}><AiOutlineFundProjectionScreen/></a>
+      <a href="#blog" onClick={() => setActiveNav('#blog')} className={activeNav === '#blog' ? 'active' : ''}><FaBlog/></a>
+      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail/></a>
     </nav>
   )
 }
