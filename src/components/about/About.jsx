@@ -38,11 +38,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident suscipit harum magni. 
-            Aliquam doloremque error velit delectus natus? Placeat nisi accusantium repellat consequatur
-             tempore hic est vel et dolorum recusandae.
-          </p>
+          <p>I'm a Junior Web Developer who love coding and creating clean and amazing applications. Based on past work experiences from hospitality management and dentistry, I have always enjoyed working in a team environment in which we support each other and make my best contribution to achieve best result for all.</p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
 
