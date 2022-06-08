@@ -33,7 +33,7 @@ const Contact = () => {
             <AiOutlineLinkedin className="contact__option-icon"/>
             <h4>Linkedin message</h4>
             <h5>Feng Mao</h5>
-            <a href="https://www.linkedin.com/in/feng-mao" target="_blank" rel="noreferrer">Send a message</a>
+            <a href="https://linkedin.com/in/feng-mao" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}

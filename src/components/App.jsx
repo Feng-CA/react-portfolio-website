@@ -4,7 +4,7 @@ import Nav from './nav/Nav'
 import About from './about/About'
 import Experience from './experience/Experience'
 import Project from './project/Project'
-import Blog from './blog/Blog'
+// import Blog from './blog/Blog'
 import Contact from './contact/Contact'
 import Footer from './footer/Footer'
 
@@ -16,7 +16,7 @@ const App = () => {
         <About />
         <Experience />
         <Project />
-        <Blog />
+        {/* <Blog /> */}
         <Contact />
         <Footer />
     </>
