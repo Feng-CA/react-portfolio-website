@@ -18,7 +18,7 @@ const Project = () => {
           <h3>Bike For Us</h3>
           <div className="project__item-cta">
             <a href="https://github.com/Feng-CA/bike-for-us" className="btn" target='_blank' rel="noreferrer">Github</a>
-            <a href="https://bike-for-us.herokuapp.com" className="btn btn-primary">Website</a>
+            <a href="https://bike-for-us.herokuapp.com" className="btn btn-primary">Demo</a>
           </div>
         </article>
         <article className="project__item">
@@ -28,17 +28,17 @@ const Project = () => {
           <h3>My Portfolio</h3>
           <div className="project__item-cta">
             <a href="https://github.com/Feng-CA/react-portfolio-website" className="btn" target='_blank' rel="noreferrer">Github</a>
-            <a href="https://feng-mao.netlify.app/" className="btn btn-primary">Website</a>
+            <a href="https://feng-mao.netlify.app/" className="btn btn-primary">Demo</a>
           </div>
         </article>
         <article className="project__item">
           <div className="project__item-image">
             <img src={PROJECT3} alt="project-img" />
           </div>
-          <h3>Recipes Heaven</h3>
+          <h3>Sports 4 Us</h3>
           <div className="project__item-cta">
-            <a href="https://github.com/Feng-CA/recipes-heaven" className="btn" target='_blank' rel="noreferrer">Github</a>
-            <a href="https://recipes-heaven.netlify.app" className="btn btn-primary">Website</a>
+            <a href="https://github.com/Feng-CA/sports-4-us_react" className="btn" target='_blank' rel="noreferrer">Github</a>
+            <a href="https://sports4us.netlify.app/home" className="btn btn-primary">Demo</a>
           </div>
         </article>
       </div>
