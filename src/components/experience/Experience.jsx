@@ -36,6 +36,20 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
+                <h4>TypeScript</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>MUI</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
                 <h4>Bootstrap</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
@@ -56,7 +70,7 @@ const Experience = () => {
             </article>
           </div>
         </div>
-        {/* END OF FRONTEDN */}
+        {/* END OF FRONTEND */}
 
         <div className="experience__backend">
           <h3>Backend Development</h3>
@@ -71,7 +85,21 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
+                <h4>MongoDB</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
                 <h4>PostgreSQL</h4>       
+                <small className= 'text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Express.js</h4>
                 <small className= 'text-light'>Intermediate</small>
               </div>
             </article>
